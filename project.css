@@ -1,0 +1,93 @@
+body{
+    background-image: url(tile.jpg);
+    
+}
+
+
+textarea{
+    height: 30px;
+    columns: 1;
+}
+
+
+#Firstinput{
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+
+#buttons{
+    margin-left: 350px;
+    margin-top: 40px;
+}
+
+   
+.title {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+      }
+
+.notebook{
+    width: 50%;
+    height: 180px;
+    margin: auto;
+    background-image: url(formbg.jpg);
+    z-index: 3;
+    margin-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    padding-left: 5px;
+}
+
+
+.note{
+    background-image: url(notebg.png);
+    background-repeat: no-repeat;
+   
+    height:400px ;
+    width: 200px;
+    margin-left: 150px;
+    float: left;
+    padding: 15px;
+    padding-top: 25px;
+    
+
+
+         animation: fadein 3s;
+        
+}
+
+@keyframes fadein {
+ from { opacity: 0; }
+ to   { opacity: 1; }
+}
+
+
+.note:hover button{
+    display: block;
+}
+
+ .note button{
+    display: none;
+    margin-left: 130px;
+    background-color: transparent;
+    border: none;
+}
+
+
+
+.timedate{
+    margin-top: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.task{
+    margin-top: 1px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 130px;
+    width: 160px;
+}
+
